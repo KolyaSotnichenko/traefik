@@ -31,6 +31,7 @@ providers:
   docker:
     endpoint: "unix:///var/run/docker.sock"
     exposedByDefault: false
+    swarmMode: true  # Add this line for Swarm mode
   file:
     directory: /custom
     watch: true
