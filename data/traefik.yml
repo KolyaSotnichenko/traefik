@@ -38,7 +38,7 @@ providers:
 certificatesResolvers:
   letsEncrypt:
     acme:
-      email: devops@domain.ru
+      email: kolya.sotnichenko0811@gmail.com
       storage: acme.json
       httpChallenge:
         entryPoint: http
