@@ -17,9 +17,9 @@ api:
 
 entryPoints:
   http:
-    address: ":8080"
+    address: ":80"
   https:
-    address: ":8443"
+    address: ":443"
   metrics:
     address: ":8082"
 
